@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Onlinelearninig.platform</title>
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <section class="flex">
+
+      <a href="#home" class="logo">ɯҽʅƈσɱҽ ʅҽαɾɳҽɾʂ</a>
+
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#courses">courses</a>
+         <a href="#contact">contact</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="row">
+
+      <div class="content">
+         <h3>ONLINE LEARNING.<span>PLATFORM!</span></h3>
+         <a href="#contact" class="btn">contact us</a>
+         <a href="https://wa.me/message/APMNH2KQO2M2N1" class="btn">Ask Your Doubt!</a>
+      </div>
+
+      <div class="image">  
+         <img src="images/myfm.jpg" alt="">
+      </div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- couter section stars  -->
+
+<section class="count">
+
+   <div class="box-container">
+
+      <div class="box">
+         <i class="fas fa-graduation-cap"></i>
+         <div class="content">
+            <h3>10+</h3>
+            <p>courses</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-user-graduate"></i>
+         <div class="content">
+            <h3>100+</h3>
+            <p>students</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-chalkboard-user"></i>
+         <div class="content">
+            <h3>10+</h3>
+            <p>teachers</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-face-smile"></i>
+         <div class="content">
+            <h3>100%</h3>
+            <p>satisfaction</p>
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- couter section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/myfm2.jpg" alt="">
+      </div>
+
+      <div class="content">
+         <h3>why choose us?</h3>
+         <p><b>Daily Classes</b> <br>
+            <b>Pdf Notes Available</b><br>
+            <b>Doubt Solving</b><br>
+            
+            1.Simply click a picture of the question or concept you want to learn.Send on WhatsApp <br>
+
+            2.Clear all your questions on a 1 on 1 video call with our expert tutors! <br>
+            
+            3.Get a photo of your written Solution
+            
+            </p>
+         <a href="https://wa.me/message/APMNH2KQO2M2N1" class="btn">WhatsApp us</a>
+      </div>
+
+   </div>
+
+</section>
+<!-- about section ends -->
+
+<section class="courses" id="courses">
+
+   <h1 class="heading">our <span>courses</span></h1>
+
+   <div class="swiper course-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <img src="images/andriod.jpg" alt="">
+            <h3>ANDROID</h3>
+            <a href="" class="btn">Get Admission</a>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/java1.jpg" alt="">
+            <h3>JAVA</h3>
+            <a href="" class="btn">Get Admission</a>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/php.jpg" alt="">
+            <h3>PHP</h3>
+            <a href="" class="btn">Get Admission</a>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/python.jpg" alt="">
+            <h3>PYTHON</h3>
+            <a href="" class="btn">Get Admission</a>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/reactjs.jpg" alt="">
+            <h3>REACT</h3>
+            <a href="" class="btn">Get Admission</a>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/my1.jpg" alt="">
+            <h3>MACHINE LEARNING</h3>
+            <a href="" class="btn">Get Admission</a>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- courses section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <h1 class="heading"><span>contact</span> us</h1>
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/right esara.png" alt="">
+      </div>
+
+      <form action="" method="post">
+         <span>your name</span>
+         <input type="text" required placeholder="enter your full name" maxlength="50" name="name" class="box">
+         <span>your email</span>
+         <input type="email" required placeholder="enter your valie email" maxlength="50" name="email" class="box">
+         <span>your number</span>
+         <input type="number" required placeholder="enter your valie number" max="9999999999" min="0" name="number" class="box" onkeypress="if(this.value.length == 10) return false;">
+         <span>select course</span>
+         <select name="couses" class="box" required>
+            <option value="" disabled selected>select the course --</option>
+            <option value="Class 5">Class 5</option>
+            <option value="Class 6">Class 6</option>
+            <option value="Class 7">Class 7</option>
+            <option value="Class 8">Class 8</option>
+            <option value="Class 9">Class 9</option>
+            <option value="Class 10">Class 10</option>
+            <option value="Class 11">Class 11</option>
+            <option value="Class 12">Class 12</option>
+         </select>
+         <span>select gender</span>
+         <div class="radio">
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">female</label>
+         </div>
+         <input type="submit" value="send message" class="btn" name="send">
+      </form>
+
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<footer class="footer">
+
+   <section>
+
+      <div class="share">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-linkedin"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-youtube"></a>
+      </div>
+
+      <div class="credit">&copy; copyright @ 2022 by <span>DoubtSolving</span> | all rights reserved!</div>
+
+   </section>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
